@@ -1,6 +1,6 @@
-# 🐍 Python Learning Journey
+# 🐍 Python Refresher Folder
 
-Welcome to my beginner-friendly Python learning repo! This collection of Jupyter notebooks is designed to guide you step-by-step through the foundational concepts of Python — from the absolute basics to more complex control structures and functional programming.
+Welcome to my beginner-friendly Python refresher folder.  This collection of Jupyter notebooks is designed to guide you step-by-step through the foundational concepts of Python used in Ai/Ml — from the absolute basics to more complex control structures and functional programming.
 
 ---
 
