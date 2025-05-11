@@ -1,0 +1,55 @@
+Project 1: Expense Tracker
+
+# Personal Expense Tracker
+
+A command-line Python application that helps users log, categorize, and track their personal expenses. This tool supports setting monthly budgets, viewing expenses, and saving/loading data to and from a file for persistent usage.
+
+
+
+## Objectives
+
+1. Enable users to add and manage daily expenses.
+2. Categorize expenses (e.g., Food, Travel, etc.).
+3. Set and track monthly spending budgets.
+4. Support persistent storage via file handling (CSV).
+5. Provide a user-friendly, interactive menu interface.
+
+## Features
+
+# Personal Expense Tracker
+
+
+The Personal Expense Tracker allows users to:
+- Enter expenses with a date, category, amount, and description
+- Set a monthly budget and track spending against it
+- Save and load expense data from a CSV file
+- View all expenses in a formatted display
+- Interact with the system via a simple terminal-based menu
+
+---
+
+## How the Program Works
+
+When the script is run:
+1. It attempts to load any previously saved expenses from a CSV file.
+2. The user is prompted to enter their monthly budget.
+3. A menu is displayed with options to:
+   - Add an expense
+   - View all expenses
+   - Track the budget
+   - Save expenses
+   - Exit the program
+
+Each menu option triggers the appropriate function, and all data is saved upon exiting the program.
+
+---
+
+## How to Run
+
+1. Ensure you have Python 3 installed.
+2. Save the main script as `expense_tracker.py`.
+3. Open your terminal and navigate to the directory containing the script.
+4. Run the script using:
+   ```zsh
+   python expense_tracker.py
+
