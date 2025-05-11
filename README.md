@@ -1,6 +1,6 @@
 # 🐍 Python Refresher Folder
 
-Welcome to my beginner-friendly Python refresher folder.  This collection of Jupyter notebooks is designed to guide you step-by-step through the foundational concepts of Python used in Ai/Ml — from the absolute basics to more complex control structures and functional programming.
+Welcome to my beginner-friendly Python refresher folder.  This collection of Jupyter notebooks is designed to guide you step-by-step through the foundational concepts of Python used in Ai/Ml — from the absolute basics to more complex control structures and functional programming. After reviewing the ipynb files, there will be projects in the 'Course1:projects' folder. the projects will be saved as .py files instead of .ipynb so the files utilizes the terminal for input values 
 
 ---
 
@@ -90,7 +90,14 @@ Read/write data and handle runtime problems gracefully.
   Catch and manage exceptions with `try`, `except`, and `finally`.
 
 ---
+## Course1: projects folder
 
+Visit the Course1: projects folder for 2 projects on what we've learned so far in python refresher section
+
+- project 1 is a personal expense tracker
+- project 2 is a Task Manager with user authentication
+
+---
 ## How to Use This Repo
 
 1. Clone the repo or open it in VS Code or JupyterLab.
