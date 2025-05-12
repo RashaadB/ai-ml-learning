@@ -2,6 +2,11 @@
 
 ## Project 1: Expense Tracker
 
+## file structure project 1
+expense_tracker.py
+README.md
+expenses.csv  # created at runtime
+
 # Personal Expense Tracker
 
 A command-line Python application that helps users log, categorize, and track their personal expenses. This tool supports setting monthly budgets, viewing expenses, and saving/loading data to and from a file for persistent usage.
@@ -56,3 +61,46 @@ Each menu option triggers the appropriate function, and all data is saved upon e
    python expense_tracker.py
 
 ## Project 2
+## file structure for project 2
+
+task_manager.py         # Main Python script
+users.json              # Stores hashed user credentials
+tasks.json              # Stores user tasks
+README.md               # Documentation
+
+# Task Manager with User Authentication (Python CLI App)
+
+This is a terminal-based Python application that allows users to manage their personal tasks securely. Each user must register and log in to access their own task list. User credentials are securely stored using SHA-256 hashing via Python's `hashlib` module. Tasks are stored per user and saved persistently using JSON files.
+
+---
+
+## Features
+
+- **Secure User Registration and Login**
+  - Passwords are hashed using SHA-256
+  - User credentials stored in `users.json`
+
+- **Task Management**
+  - Add new tasks (auto-assigned unique ID)
+  - View existing tasks
+  - Mark tasks as completed
+  - Delete tasks by ID
+  - Task data stored in `tasks.json` and isolated by user
+
+- **Menu-Driven Interface**
+  - Clean terminal UI
+  - Persistent loop until user logs out
+  - Clear prompts and error handling
+
+---
+
+## How to Run 
+
+1. Ensure you have Python 3 installed.
+2. Save the code in a file, e.g., `task_manager.py`
+3. Run the script in your terminal:
+
+```bash
+python task_manager.py
+
+
