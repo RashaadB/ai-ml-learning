@@ -1,4 +1,6 @@
-Project 1: Expense Tracker
+## There are 2 project descriptions in this readme first project is an expense tracker, second is the task manager project!
+
+## Project 1: Expense Tracker
 
 # Personal Expense Tracker
 
@@ -53,3 +55,4 @@ Each menu option triggers the appropriate function, and all data is saved upon e
    ```zsh
    python expense_tracker.py
 
+## Project 2
