@@ -1,10 +1,11 @@
-# NumPy Folder
+# NumPy and Pandas Folder
 
 Welcome to my NumPy folder.  This collection of Jupyter notebooks is designed to guide you step-by-step through the foundational concepts of NumPy used in Ai/Ml.  — from NumPy functions, slicing, string functions and indexing. After reviewing the ipynb files, there is a `Numpy-practice` file to tackle. 
+Then we will jump to the Pandas folder
 
 ---
 
-##  1. Python Fundamentals
+##  1. NumPy
 
 Start here if you're new to NumPy.
 
@@ -36,17 +37,12 @@ Start here if you're new to NumPy.
 - numpy.char is a module that provides vectorized string operations for NumPy arrays.
 - allows for applying string functions element-wise on entire NumPy arrays of strings
 
-
-
-
 - `Numpy_indexing.ipynb`  
 - Access 1D NumPy Array Elements
 - Access 2D NumPy Array Elements
 - Access 3D NumPy Array Elements
 - Negative indices count backward from the end of the array.
 - In a negative indexing system, the last element will be the first element with an index of -1, the second last element with an index of -2, and so on.
-
-
 
 - `Numpy_slicing.ipynb`  
 - In Python, slicing refers to moving elements from one index to another.
