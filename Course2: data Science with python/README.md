@@ -7,8 +7,6 @@ Then we will jump to the Pandas folder
 
 ##  1. NumPy
 
-Start here if you're new to NumPy.
-
 - `Numpy.ipynb`  
 - used for working with arrays
 - working with multidimensional array of objects 
@@ -42,7 +40,7 @@ Start here if you're new to NumPy.
 - Access 2D NumPy Array Elements
 - Access 3D NumPy Array Elements
 - Negative indices count backward from the end of the array.
-- In a negative indexing system, the last element will be the first element with an index of -1, the second last element with an index of -2, and so on.
+- In a negative indexing system, the last element will be the first element with an index of- 1, the second last element with an index of- 2, and so on.
 
 - `Numpy_slicing.ipynb`  
 - In Python, slicing refers to moving elements from one index to another.
@@ -56,3 +54,46 @@ Start here if you're new to NumPy.
 - Create a 3D NumPy array with at least 2 matrices, each containing 2 rows and 3 columns
 - Access elements in NumPy arrays and utilize indexing and slicing techniques for efficient data retrieval
 - Access and print various elements from 1D, 2D, and 3D arrays using positive indexing
+
+
+## 2. Pandas
+
+- `pandas_intro.ipynb`
+- introduces the fundamentals, and features of Pandas
+- we learn Data Structures
+- Introduces to Serieas and how to perform operations and Transformations on them
+
+- `pandas_DataFrame.ipynb`
+- 3 csv files are provided
+- introduces how to create a dataframe
+- how to call an existing dataframe using the built in read_csv function using the provided csv files
+- introduces stats, means, median, and standard deviation using pandas
+- introduces the correlation matrix analysis
+
+- `pandas_date_time.ipynb` 
+- Date and TimeDelta in Pandas
+- Date Handling in Pandas
+- Extracting Components from Dates
+- Timedelta in Pandas
+- Creating a Timedelta
+- Performing Arithmetic Operations
+- Resampling Time Series Data
+- Categorical Data Handling
+- Creating a Categorical Variable
+- Counting Occurrences of Each Category
+- Creating Dummy Variables
+- Label Encoding
+
+`pandas_strings.ipynb`
+- Text Data in Pandas
+- Iteration
+- Iterating over Rows
+- Applying a Function to Each Element
+- Vectorized Operations
+- Iterating over Series
+- Sorting
+- Sorting DataFrame by Column
+- Sorting DataFrame by Multiple Columns
+- Sorting DataFrame by Index
+- Sorting a Series
+- Plotting with Pandas
