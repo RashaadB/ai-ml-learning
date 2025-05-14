@@ -97,3 +97,13 @@ Then we will jump to the Pandas folder
 - Sorting DataFrame by Index
 - Sorting a Series
 - Plotting with Pandas
+
+`pandas_practice.ipynb`
+- practice using a provided sample data
+1. Create a Pandas Series for sales data
+- Use a list of daily sales figures to create a Pandas Series
+- Assign days of the week as the index
+2. Access and manipulate sales data
+- Access sales data for specific days using index labels
+- Calculate total sales for the week
+   
