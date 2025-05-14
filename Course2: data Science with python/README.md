@@ -107,3 +107,15 @@ Then we will jump to the Pandas folder
 - Access sales data for specific days using index labels
 - Calculate total sales for the week
    
+## 3. Data Visualization
+
+`data_visualization_intro.ipynb`
+- Data visualization is the graphical representation of data to reveal patterns, trends, and insights that might not be easily apparent from raw data.
+- It involves creating visual elements such as charts, graphs, and maps to communicate complex information in an understandable and interpretable form.
+- Data visualization tools and libraries, such as Matplotlib, Seaborn, and Plotly allows analysts, scientists and professionals to create compelling visualizations that make understanding of data and support evidence-based decisions-making. 
+
+`seaborn_plotly_visualization.ipynb`
+- Seaborn is a Python library for statistical data visualization that builds on Matplotlib.
+- It provides an interface for creating attractive and informative statistical graphics.
+- It comes with several built-in themes and color palettes to make creating aesthetically pleasing visualizations easy.
+- It is particularly well-suited for exploring complex datasets with multiple variables.
