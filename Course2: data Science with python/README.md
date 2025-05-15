@@ -133,3 +133,21 @@ Then we will jump to the Pandas folder
 - Inverse of Matrix, Eigenvalues, and Eigenvectors
 - Eigenvalues and Eigenvectors
 - Calculus in Linear Algebra
+
+## 5 Statistic Fundamentals
+`statistic_fundamentals.ipynb`
+- Importance of Statistics for Data Science:
+- What Is Statistics?
+- Common Terms Used in Statistics
+- Statistics Types
+- Types of Data
+- Measures of Central Tendency
+- Measures of Dispersion
+- Range
+- Interquartile Range
+- Standard Deviation
+- Variance
+- Measures of Shape
+- Skewness
+- Kurtosis
+- Covariance and Correlation
