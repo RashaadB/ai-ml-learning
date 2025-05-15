@@ -119,3 +119,17 @@ Then we will jump to the Pandas folder
 - It provides an interface for creating attractive and informative statistical graphics.
 - It comes with several built-in themes and color palettes to make creating aesthetically pleasing visualizations easy.
 - It is particularly well-suited for exploring complex datasets with multiple variables.
+
+## 4. Math and Statistics
+
+`linear_algebra.ipynb`
+- Introduction to Linear Algebra
+- Scalars and Vectors
+- Vector Operation: Multiplication
+- Norm of a Vector
+- Matrix and Matrix Operations
+- Rank of Matrix
+- Determinant of Matrix and Identity Matrix
+- Inverse of Matrix, Eigenvalues, and Eigenvectors
+- Eigenvalues and Eigenvectors
+- Calculus in Linear Algebra
