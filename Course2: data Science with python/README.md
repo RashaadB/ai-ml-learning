@@ -154,37 +154,15 @@ Then we will jump to the Pandas folder
 
 ## 6.Probability Distribution
 `probability_distribution.ipynb`
-- Hypothesis Testing and Mechanism
-- Introduction to Hypothesis
-- Hypothesis Components
-- Null and Alternative Hypothesis
-- Hypothesis Testing
-- Hypothesis Testing Outcomes: Type I and Type II Errors
-- Steps Involved in Hypothesis Testing
-- Confidence Interval
-- Margin of Error
-- Confidence Levels
-- Z-Distribution (Standard Normal Distribution)
-- T-Distribution
-- Plotting T and Z Distribution
-- T-Test
-- Z-Test
-- Choosing between T-Test and Z-Test
-- P-Value
-- Decision-Making Using P-Value
-- Chi-Square Distribution
-- Chi-Square Test and Independence Test
-- Analysis of Variance or ANOVA
-- How Does ANOVA Work?
-- ANOVA Terminologies
-- ANOVA Outcome
-- Assumptions of ANOVA
-- Types of ANOVA
-- F-Distribution
-- The Probability Density Function of F-Distribution
-- Graph of F-Distribution’s PDF
-- Description of F-Distribution
-- F-Test
-- Comparing Two Variances
-- Assumptions for F-Test
-- Steps to Perform F-Test
+- Probability and Its Importance
+- Random Variable
+- Probability Distribution
+- Discrete Probability Distribution
+- Continuous Probability Distribution   
+- Discrete Probability Distribution
+- Bernoulli Distribution
+- Binomial Distribution
+- Poisson Distribution
+- Continuous Probability Distribution
+- Normal Distribution
+- Uniform Distribution
