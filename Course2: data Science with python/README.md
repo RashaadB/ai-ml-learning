@@ -166,3 +166,27 @@ Then we will jump to the Pandas folder
 - Continuous Probability Distribution
 - Normal Distribution
 - Uniform Distribution
+
+## 7. Advanced Statistics
+`advanced_statistics.ipynb`
+- Hypothesis Testing and Mechanism
+- Introduction to Hypothesis
+- Hypothesis Components
+- Null and Alternative Hypothesis
+- Hypothesis Testing
+- Hypothesis Testing Outcomes: Type I and Type II Errors
+- Steps Involved in Hypothesis Testing
+- Confidence Interval
+- Margin of Error
+- Confidence Levels
+- Z-Distribution (Standard Normal Distribution)
+- T-Distribution
+- Plotting T and Z Distribution
+- T-Test
+- Z-Test
+- Choosing between T-Test and Z-Test
+- P-Value
+- Decision-Making Using P-Value
+- Chi-Square Distribution
+- Chi-Square Test and Independence Test
+
