@@ -190,4 +190,23 @@ Then we will jump to the Pandas folder
 - Chi-Square Distribution
 - Chi-Square Test and Independence Test
 
+## 8. Data Wrangling
+`data_wrangling.ipynb`
+- Introduction to Data Wrangling
+- Data Collection
+- Data Inspection
+- Accessing Rows Using .iloc and .loc
+- Checking for Missing Values
+- Handling Missing Data
+- Dealing with Duplicates
+- Data Cleaning
+- Data Transformation
+- Data Binning
+- Handling Outliers
+- Pandas Joining Techniques
+- Pandas Concatenate
+- Pandas Merge Dataframes
+- Pandas Join Dataframes
+- Aggregating Data
+- Reshaping Data
 
