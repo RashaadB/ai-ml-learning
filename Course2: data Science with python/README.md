@@ -190,3 +190,4 @@ Then we will jump to the Pandas folder
 - Chi-Square Distribution
 - Chi-Square Test and Independence Test
 
+
