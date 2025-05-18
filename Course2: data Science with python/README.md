@@ -210,3 +210,18 @@ Then we will jump to the Pandas folder
 - Aggregating Data
 - Reshaping Data
 
+## Feature Engineering
+`feature_engineering.ipynb`
+- Introduction to Feature Engineering
+- Feature Engineering Methods
+- Transforming Variables
+- Log Transformation
+- Square Root Transformation
+- Box-Cox Transformation
+- Features Scaling
+- Label Encoding
+- One Hot Encoding
+- Hashing
+- Hashlib Module
+- Grouping Operations
+
