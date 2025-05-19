@@ -1,6 +1,7 @@
-# NumPy and Pandas Folder
+# Course2: Data Science with Python
 
-Welcome to my NumPy folder.  This collection of Jupyter notebooks is designed to guide you step-by-step through the foundational concepts of NumPy used in Ai/Ml.  — from NumPy functions, slicing, string functions and indexing. After reviewing the ipynb files, there is a `Numpy-practice` file to tackle. 
+Welcome to Course2 folder.  This collection of Jupyter notebooks is designed to guide you step-by-step through the foundational concepts of Pandas, Numpy, Statistics, Data Visualization, Data Wrangling, and Probability Distribution used in Ai/Ml.  — from NumPy functions, slicing, string functions and indexing. After reviewing the ipynb files, there is a `sales_analysis.py` under the Course2 projects folder to try and follow. The README.md in the Course2 projects folder describes the project requirements, use the dataset (`AusApparalSales4thQrt2020.csv`) to follow along!
+
 Then we will jump to the Pandas folder
 
 ---
@@ -224,4 +225,73 @@ Then we will jump to the Pandas folder
 - Hashing
 - Hashlib Module
 - Grouping Operations
+
+## Project: Sales Analysis Dashboard
+
+`sales_analysis.py`
+#  Sales Analysis Dashboard
+This project presents a detailed group-wise sales analysis for customer segments. 
+
+The objective is to provide actionable insights to the Sales & Marketing (S&M) team through intuitive visualizations, enabling better strategic planning, hyper-personalization, and the identification of the Next Best Offers (NBO).
+
+---
+
+## Key Features
+
+### Group-Wise Sales Across States
+- Comparative sales performance analysis across **different states** for each demographic group.
+- Provides regional insights into target audiences.
+
+### Time-of-Day Sales Patterns
+- Identifies **peak and off-peak hours** based on transaction timestamps.
+- Helps S&M teams optimize campaign timing and staffing.
+
+###  Time-Based Performance Charts
+Includes interactive and static charts at the following granularity levels:
+- **Daily**
+- **Weekly**
+- **Monthly**
+- **Quarterly**
+
+These views empower leadership to track performance trends and seasonality.
+
+---
+
+## Visualization Tools Used
+
+### Library: **Seaborn**
+**Reason for Recommendation:**
+Seaborn is a statistical data visualization library built on top of Matplotlib. It simplifies the creation of complex visualizations and integrates well with Pandas DataFrames, making it an ideal tool for:
+- **Group-wise comparisons**
+- **Trend identification**
+- **Heatmaps and categorical plots**
+
+Seaborn’s expressive syntax and built-in support for aggregation, bootstrapping, and color palettes make it suitable for executive dashboards intended for non-technical stakeholders.
+
+### Optional: `matplotlib` and `plotly`
+- `matplotlib` was used as a base for layout customization.
+- `plotly` can optionally be used for interactive charts where real-time filtering or drill-downs are needed.
+
+---
+
+## Example Visualizations
+
+- **Barplots:** Group-wise sales across states
+- **Lineplots:** Monthly trends per group
+- **Boxplots:** Time-of-day distribution by segment
+- **Heatmaps:** Weekly performance per state/group
+
+---
+
+## Recommendations
+
+1. **Adopt time-aware marketing strategies:** Focus outreach during identified peak hours for each group.
+2. **Prioritize personalization programs:** Use demographic-specific sales data to develop Next Best Offer recommendations.
+3. **Utilize state-level insights:** Tailor regional campaigns to high-performing or underperforming states per demographic group.
+4. **Automate Reporting:** Implement scheduled runs of the dashboard with updated charts to support daily stand-ups and quarterly reviews.
+
+---
+
+
+
 
