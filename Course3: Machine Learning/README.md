@@ -1,6 +1,8 @@
  Welcome to the Machine learning folder, hopefuly things are starting to come together as why we focused on python refreshers and learning and reviewing math and stats.
  In this folder we learn about all of the componets for Machine Learning starting with types of Supervised learning types: Classical and Regressions. And learning about all of the algorithms used to predict outcomes based on labeled datasets.
 
+## Supervised Regression Learning Folder##
+
 ## 1. Supervised Learning
 
 `supervised_learning.ipynb`
@@ -46,3 +48,7 @@ Types of Regression
 - Hyperparameter Tuning
 - GridSearchCV
 - RandomSearchCV
+
+## Supervised Classification Learning Folder##
+
+`supervised_learning_classification.ipynb`
