@@ -130,3 +130,20 @@ Types of Regression
 - Stacking
 - Advantages of stacking
 - Disadvantages of stacking
+
+## Unsupervised Learning Folder
+
+`unsupervised_learning.ipynb`
+
+- Introduction to Unsupervised Learning
+- What Is Unsupervised Learning?
+- Approaches to Unsupervised algorithm (Clustering, Dimensionality Reduction, Association rule )
+- Clustering Techniques
+- Overview of Clustering
+- K-Means Clustering:
+- Algorithm and Implementation
+- Choosing the Number of Clusters (Elbow Method, Silhouette Score)
+- Hierarchical Clustering:
+- Agglomerative vs. Divisive Methods
+- Dendrograms and Linkage Criteria
+- DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
