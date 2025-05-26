@@ -147,3 +147,21 @@ Types of Regression
 - Agglomerative vs. Divisive Methods
 - Dendrograms and Linkage Criteria
 - DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+
+## Unsupervised Learning part 2
+
+`unsupervised_learning_2.ipynb`
+
+- Dimensionality Reduction Techniques:
+- Importance of Dimensionality Reduction
+- Principal Component Analysis (PCA)
+- Linear Discriminant Analysis (LDA)
+- t-Distributed Stochastic Neighbor Embedding (t-SNE)
+- Association Rule Learning
+- Introduction to Association Rule Learning
+- Apriori Algorithm
+- Eclat Algorithm
+- Anomaly Detection Techniques
+- Isolation forest
+- Model Evaluation in Unsupervised Learning:
+- Silhouette Score for Clustering
