@@ -93,3 +93,40 @@ Types of Regression
 
 ## Supervised Classification part 3
 `classification_3.ipynb`
+
+- Handling Imbalanced Data in Classification
+- Introduction to Imbalanced Data
+- Oversampling Techniques (e.g., SMOTE)
+- Undersampling Techniques
+- Ensemble Methods for Imbalanced Data
+
+## Ensemble Learning Folder
+
+`ensemble_learning.ipynb`
+
+- Introduction to ensemble learning
+- Goals of ensemble learning
+- Importance of ensemble learning
+- Weak and Strong learners in Ensemble learning
+- Categories in ensemble learning
+- Sequential ensemble technique
+- Parallel ensemble technique
+- Simple techniques used in ensemble learning
+- Voting
+- Hard Voting
+- Soft Voting
+- Averaging
+- Weighted Averaging
+- Advanced techniques used in ensemble learning
+- Bagging (bootstrap aggregating)
+- Bagging Techniques
+- Advantages of bagging
+- Disadvantages of bagging
+- Out-of-bag (OOB) concept
+- Boosting
+- Boosting Techniques
+- Advantages of boosting
+- Disadvantages of boosting
+- Stacking
+- Advantages of stacking
+- Disadvantages of stacking
