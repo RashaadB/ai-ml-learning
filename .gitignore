@@ -1,4 +1,51 @@
+# macOS system files
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temp files
 *.log
 *.tmp
-.DS_Store
+*.bak
+*.swp
+*.swo
+
+# VS Code workspace files
+.vscode/
+*.code-workspace
+
+# Git LFS large file patterns (optional)
+*.csv
+
+# Installers, archives, backups
+*.tar.gz
+*.tar.xz
+*.zip
+*.rar
+*.7z
+*.bak
