@@ -3,8 +3,13 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 
 ## Artificial Neural Network Folder
 
-`into_deep_learning.ipynb`
-- 
+`intro_deep_learning.ipynb`
+- intro to deep learning
+- deep learning vs machine learning
+- Applications of deep learning
+- limitations of deep learning
+- Keras, TensorFlow, PyTorch
+- Deep Learing Lifecycle
 
 `perceptron_classification.ipynb`
 - Build perceptron-based classification model
