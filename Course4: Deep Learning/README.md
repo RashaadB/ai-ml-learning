@@ -26,9 +26,11 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 - backpropagation in perceptrons
 - error landscapre
 - vanishing gradient
-- Exploring Gradient
+- Exploding Gradient
 
 `perceptron_classification.ipynb`
 - Build perceptron-based classification model
 - Perform preprocessing and splitting on data
 - Initiakize and fit the perceptron
+
+`neural_networks_activation_functions.ipynb`
