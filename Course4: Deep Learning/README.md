@@ -34,3 +34,6 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 - Initiakize and fit the perceptron
 
 `neural_networks_activation_functions.ipynb`
+- configuring Neural Network
+- applying activation function
+- applying the think function
