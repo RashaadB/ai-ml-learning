@@ -37,3 +37,11 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 - configuring Neural Network
 - applying activation function
 - applying the think function
+
+## Deep Neural Networks Folder
+
+`deep_neural_networks.ipynb`
+- deep neural networks architecture
+- Loss function in DNN and Types
+    - regression loss
+    - classifon loss
