@@ -11,6 +11,23 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 - Keras, TensorFlow, PyTorch
 - Deep Learing Lifecycle
 
+`intro_artificial_neural_network.ipynb`
+- Artificial Neuron
+- Neural Networks and the different types
+    - Perceptrons
+    - Multilayer perceptron
+    - Deep Neural Networks or DNNs 
+    - Convolutional neural networks or CNNs
+    - Recurrent neural networks or RNNs
+- Feedforward Neural Networks
+- Activation Function
+- types of activation functions
+- forward propagation in perceptrons
+- backpropagation in perceptrons
+- error landscapre
+- vanishing gradient
+- Exploring Gradient
+
 `perceptron_classification.ipynb`
 - Build perceptron-based classification model
 - Perform preprocessing and splitting on data
