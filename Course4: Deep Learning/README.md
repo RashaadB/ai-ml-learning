@@ -74,3 +74,20 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 `deep_neural_networks_tensorflow.ipynb`
 
 <!-- Building Deep Neural Networks on TensorFlow refers to the process of designing and constructing neural network models using the TensorFlow framework. This involves defining the architecture of the neural network, selecting appropriate layers and activation functions, specifying the optimization algorithm, and training the model using data. -->
+
+`sequential_apis_in_tensorflow.ipynb`
+<!-- The sequential API in TensorFlow offers a high-level interface for building and training deep learning models. It allows for the sequential addition of layers, simplifying the process of constructing neural network architectures by specifying the input shape and layer type. -->
+- load fashion data set
+- build model
+- train test split
+- compile the model
+- evaluate the model
+- predict the model
+
+`functional_apis_tensorflow.ipynb`
+<!-- The functional APIs in TensorFlow is an alternative way to create and customize complex neural network models. It allows you to build models with more flexibility and handle multiple inputs and outputs. -->
+- load a dataset 
+- inspect and visualize dataset
+- build neural network modle using functional API
+- compile model
+- evaluate the model
