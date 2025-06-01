@@ -55,13 +55,15 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
     - calculate sum squared error
     
 
-    ## TensorFlow Folder
-     `intro_tensors.ipynb`
-     - Tenors
-     - TensorFlow
-     - dataflow graph
-     - TensorFlow APIs
-     - TensorFlow Playground
-     - TFLearn
-     - Keras
+## TensorFlow Folder
+`intro_tensors.ipynb`
+- Tenors
+- TensorFlow
+- dataflow graph
+- TensorFlow APIs
+- TensorFlow Playground
+- TFLearn
+- Keras
      
+`tensorFlow_practice.ipynb`
+- 
