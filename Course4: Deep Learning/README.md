@@ -91,3 +91,10 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 - build neural network modle using functional API
 - compile model
 - evaluate the model
+
+`tensorflow_practice_2`
+- load dataset
+- define classifiers
+- voting classifier
+- train and evaluate classifiers
+- visualization of decision boundaries
