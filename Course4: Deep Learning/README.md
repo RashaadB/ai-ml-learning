@@ -44,4 +44,24 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 - deep neural networks architecture
 - Loss function in DNN and Types
     - regression loss
+        - Mean Absolute error
     - classifon loss
+        - Mean squareed error
+    - Forward and Backward propagation in DNN
+
+    `forward_propagation.ipynb`
+    - predict data output
+    - calculate the errors
+    - calculate sum squared error
+    
+
+    ## TensorFlow Folder
+     `intro_tensors.ipynb`
+     - Tenors
+     - TensorFlow
+     - dataflow graph
+     - TensorFlow APIs
+     - TensorFlow Playground
+     - TFLearn
+     - Keras
+     
