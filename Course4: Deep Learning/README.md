@@ -66,4 +66,11 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 - Keras
      
 `tensorFlow_practice.ipynb`
-- 
+- TensorFlow hands on
+- Create sequential model
+- applying softmax activation
+- Create probability model
+
+`deep_neural_networks_tensorflow.ipynb`
+
+<!-- Building Deep Neural Networks on TensorFlow refers to the process of designing and constructing neural network models using the TensorFlow framework. This involves defining the architecture of the neural network, selecting appropriate layers and activation functions, specifying the optimization algorithm, and training the model using data. -->
