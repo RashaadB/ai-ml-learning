@@ -115,3 +115,12 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 `torch_classifier_model.ipynb`
 <!-- In this example, we develop and train a deep learning model utilizing the MNIST dataset, which comprises 28x28 grayscale images of handwritten digits from 0 to 9. The model, a fully connected neural network, is meticulously designed to classify these images into their respective digit categories. We employ PyTorch, a powerful and flexible deep learning framework, to facilitate our implementation. -->
 
+## Model Optimization & Performance Improvement Folder
+`model_opt_perfor_improvement.ipynb`
+- Optimization Algorithms
+- Importance of Optimization Algorithms
+- Optimizers and their Types
+    - Gradient Descent
+    - Stochastic Gradient Descent
+    - Stochastic Gradient Descent mini batch
+
