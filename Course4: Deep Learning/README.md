@@ -98,3 +98,20 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 - voting classifier
 - train and evaluate classifiers
 - visualization of decision boundaries
+
+## PyTorch 
+`pytorch_intro.ipynb`
+- Features of PyTorch
+- Modules in PyTorch
+    - Basic Layers
+    - Activation Function
+    - Pooling Layers
+    - Normalization Layers
+    - Dropout Layers
+
+`torch_dl_model.ipynb`
+<!-- build and train a deep learning model using the FashionMNIST dataset, which consists of 28x28 grayscale images of 10 different clothing items. The model, a convolutional neural network (CNN), is trained to classify these images into their respective categories, leveraging PyTorch for the implementation and employing techniques such as normalization and Adam optimization to enhance performance. -->
+
+`torch_classifier_model.ipynb`
+<!-- In this example, we develop and train a deep learning model utilizing the MNIST dataset, which comprises 28x28 grayscale images of handwritten digits from 0 to 9. The model, a fully connected neural network, is meticulously designed to classify these images into their respective digit categories. We employ PyTorch, a powerful and flexible deep learning framework, to facilitate our implementation. -->
+
