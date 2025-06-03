@@ -123,4 +123,24 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
     - Gradient Descent
     - Stochastic Gradient Descent
     - Stochastic Gradient Descent mini batch
+    - Momentum
+    - Nesterov Accelerated Gradient (NAG)
+    - RMSProp
+    - Adadelta
+    - Adam Optimizer
+- Batch Normalization
+- Regularization
+- Modifying the loss function
+- loss function strategies
+- Data augmentation
+- K fold cross-validation
+- Vanishing Gradient
+- Prevent vanishing gradient
+- Exploding Gradient
+- Hyperparameter and Parameters
+
+
+
+
+
 
