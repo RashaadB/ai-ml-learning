@@ -139,6 +139,76 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 - Exploding Gradient
 - Hyperparameter and Parameters
 
+`implementation_of_SGD.ipynb`
+<!-- Stochastic gradient descent (SGD) is an optimization algorithm, commonly used in machine learning to train models. It is easier to fit into memory due to a single training sample being processed by the network.
+- It is computationally fast as only one sample is processed at a time. For larger datasets, it can converge faster as it causes updates to the parameters more frequently. -->
+
+`implementation_of_Momentum.ipynb`
+- calculate the square of **x**, representing the objective function.
+- The derivative(x) function computes the derivative of x with respect to the objective function.
+- The **gradient_descent(objective, derivative, bounds, n_iter, step_size, momentum)** function implements the gradient descent algorithm. It initializes a solution within the specified bounds and iteratively updates it based on the objective and derivative functions. The function also tracks and stores the solutions and their corresponding scores.
+- The random seed is set to 4 using seed(4) to ensure reproducibility.
+- The bounds variable defines the lower and upper bounds for the solution space.
+- Parameters such as the number of iterations (n_iter), step size (step_size), and momentum (momentum) are specified.
+- The **gradient_descent** function is called with the provided arguments, and the resulting solutions and scores are stored.
+- An array of input values (inputs) is generated using **arange** within the defined bounds.
+- The objective function values (results) are computed for the input values.
+- The objective function curve is plotted using **pyplot.plot** with inputs on the x-axis and results on the y-axis.
+- The optimization path is visualized by plotting the solutions and scores as red dots connected by lines using pyplot.plot.
+- Finally, **pyplot.show()** is called to display the plot.
+
+`implementation_of_AdaGrad.ipynb`
+- Define the objective function as the sum of squares of x and y.
+- Set the bounds for input variables.
+- Generate arrays of x and y values within the specified bounds at 0.1 increments.
+- Create a mesh grid from the x and y arrays.
+- Compute the objective function values for each combination of x and y in the mesh grid.
+- Create a filled contour plot with 50 contour levels and 'jet' color scheme.
+- Display the plot.
+
+`implementation_of_RMSProp.ipynb`
+- Define the objective function as the sum of squares of x and y.
+- Set the bounds for input variables.
+- Generate arrays of x and y values within the specified bounds at 0.1 increments.
+- Create a mesh grid from the x and y arrays.
+- Compute the objective function values for each combination of x and y in the mesh grid.
+- Create a filled contour plot with 50 contour levels and 'jet' color scheme.
+- Display the plot.
+
+`implementation_of_Adadelta.ipynb`
+- Define the objective function as the sum of squares of x and y.
+- Set the bounds for input variables.
+- Generate arrays of x and y values within the specified bounds at 0.1 increments.
+- Create a mesh grid from the x and y arrays.
+- Compute the objective function values for each combination of x and y in the mesh grid.
+- Create a filled contour plot with 50 contour levels and 'jet' color scheme.
+- Display the plot.
+
+`implementation_of_Adam.ipynb`
+- Initialization and Setup:
+
+    - Start by initializing the solution within the specified bounds.
+    - Prepare variables m and v to store the first and second moments (moving averages of the gradients and squared gradients).
+
+- Gradient Computation and Update:
+
+    - Calculate the gradient of the objective function.
+    - Update the moments using exponential decay rates beta1 and beta2.
+    - Adjust each parameter based on the biased-corrected first and second moment estimates.
+
+`implementation_of_Dropout.ipynb`
+- Randomly selected neurons are ignored during training. They are 'dropped out' randomly. This means that their contribution to the activation of downstream neurons is temporally removed on the forward pass, and any weight updates are not applied to the neuron on the backward pass.
+
+
+- If neurons are randomly dropped out of the network during training, other neurons will have to step in and handle the representation required to make predictions for the missing neurons. This is believed to result in multiple independent internal representations being learned by the network.
+
+- The effect is that the network becomes less sensitive to the specific weights of neurons. This, in turn, results in a network that is capable of better generalization and is less likely to overfit the training data.
+
+
+`LEP_Implementation_Hyperparameter_Tuning.ipynb`
+- Hyperparameter tuning is the process of systematically searching for the best combination of hyperparameter values for a machine learning model.
+- It involves selecting a subset of hyperparameters and exploring different values for each hyperparameter to find the configuration that optimizes the model's performance on a given dataset.
+
 
 
 
