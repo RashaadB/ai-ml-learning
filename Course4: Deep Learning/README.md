@@ -228,6 +228,13 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 - CNN filters
 - Pooling in CNN
 
+`image_data.ipynb`
+1. Import the necessary libraries
+2. Read and display the image
+3. Display RGB channels
+4. Flip augmentation
+5. Perform width shifting augmentation
+6. Change the brightness augmentation
 
 
 
