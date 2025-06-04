@@ -225,6 +225,9 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
     - Strides
     - Padding
 - ResNet
+- CNN filters
+- Pooling in CNN
+
 
 
 
