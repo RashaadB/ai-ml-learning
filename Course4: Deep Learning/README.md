@@ -236,6 +236,29 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 5. Perform width shifting augmentation
 6. Change the brightness augmentation
 
+`cnn_image_classification.ipynb`
+1. Import the necessary libraries and dataset
+2. Count and retrieve the images
+3. Create a training dataset
+4. Create a validation dataset
+5. Visualize a subset of images from the training dataset
+6. Preprocess and normalize the training dataset
+7. Create a convolutional neural network model with data augmentation
+8. Summarize and compile the model
+9. Train the model
+10. Visualize the result
+11. Predict the class of a given image
+
+`image_classification.ipynb`
+1. Import the necessary libraries
+2. Load and normalize the CIFAR10 training and test datasets using TensorFlow
+3. Display a batch of training images
+4. Define the convolutional neural network
+5. Compile the Model
+6. Train the network on the training data with validation split
+7. Test the network on the test data
+8. Predict a batch of test images
+9. Perform Classes on Individual Datasets
 
 
 
