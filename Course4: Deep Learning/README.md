@@ -212,7 +212,19 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 ## Convolutional Neural Networks folder
 
 `convolutional_neural_networks.ipynb`
-
+- Convolutional Neural Networks
+- CNN applications
+- image data
+- Convolution Operation
+- CNN Architecture
+    - convolution layer
+    - pooling layer
+    - fully connected layer
+    - output layer
+- CNN architecture parameters
+    - Strides
+    - Padding
+- ResNet
 
 
 
