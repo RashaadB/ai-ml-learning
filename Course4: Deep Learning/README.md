@@ -262,10 +262,19 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 
 ## Transfer Learning Folder.ipynb
 
-`transfer_learning.ipynb`
-- transfer learning
+`transfer_learning_intro.ipynb`
+- what is transfer learning
+- transfer learning in DNN
+    - positive transfer
+    - negative transfer
+- pre-trained model specs
+- compare and contrast 
+- pre-trained models: image domain
+- pre-trained models: text domain
+- pre-trained models: audio domain
+- pre-traied models: video domain
 
 `tranfer_learning.ipynb`
-
+<!-- learn how to utilize transfer learning with the VGG16 model to adapt pre-trained features for a new classification task, highlighting efficient model adaptation without extensive new training. -->
 
 
