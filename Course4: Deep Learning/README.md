@@ -263,6 +263,7 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 ## Transfer Learning Folder.ipynb
 
 `transfer_learning.ipynb`
+- transfer learning
 
 `tranfer_learning.ipynb`
 
