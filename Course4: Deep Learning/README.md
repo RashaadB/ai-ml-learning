@@ -260,6 +260,9 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 8. Predict a batch of test images
 9. Perform Classes on Individual Datasets
 
+## Transfer Learning Folder.ipynb
+
+
 
 
 
