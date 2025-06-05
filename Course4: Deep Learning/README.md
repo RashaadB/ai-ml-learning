@@ -278,3 +278,10 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 <!-- learn how to utilize transfer learning with the VGG16 model to adapt pre-trained features for a new classification task, highlighting efficient model adaptation without extensive new training. -->
 
 
+## Object Detection Folder
+`object_detection.ipynb`
+- what is object detection
+- computer vision
+- detection modes
+- multiple objects
+- bouding boxes
