@@ -285,3 +285,4 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 - detection modes
 - multiple objects
 - bouding boxes
+- classes 
