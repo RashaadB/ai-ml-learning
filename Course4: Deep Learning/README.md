@@ -365,7 +365,16 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 8. Load a test video, extract frame features, and make predictions using the sequence model
 
 ## Transformer Models NLP folder
+
 `bert_v3_intro.ipynb`
+- Transformer models for NLP
+- Self Attention
+- layers of self attention
+- Long range dependencies
+- Transformer models
+- Transformer architecture
+
+
 1. Import the required libraries
 2. Analyze the sentiment using the transformer pipeline
 3. Create text generation
