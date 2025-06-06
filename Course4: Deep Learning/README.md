@@ -1,4 +1,4 @@
-welcome to the Course 4, where we will be focusing on Deep learning. Learning about Deep Neural Networks (DNN), Artificial Neural Networks (ANN) and the perceptrons used for binary classification, TensorFlow used for building models, Model Optimization and performace improvements, Transfer learning and much more!
+welcome to the Course 4, where we will be focusing on Deep learning. Learning about Deep Neural Networks (DNN), Artificial Neural Networks (ANN) and the perceptrons used for binary classification, TensorFlow used for building models, Model Optimization and performace improvements, Transfer learning, object detection and much more!
 
 
 ## Artificial Neural Network Folder
@@ -304,3 +304,62 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 2. Create and save the model
 3. Convert the Keras model to a TensorFlow lite model
 4. Convert concrete functions
+
+## Recurrent Neural Networks Folder
+
+`recurrent_neural_networks_intro.ipynb`
+- Sequential modeling
+    - RNNs
+    - Autoencoders
+    - Seq2Seq
+- Recurrent Neural Networks
+- Types of RNN
+    - one to one
+    - one to many
+    - many to one
+    - many to many
+- RNN architecture
+    - initialization
+    - input processing
+    - hidden state update
+    - output calculation
+    - training
+- long short term memory (LSTM)
+- Gated Recurrent Network 
+- Hybrid Modeling
+
+`classification_rnns.ipynb`
+1. Import the libraries
+2. Define the hyperparameter
+3. Preprocess the data and print the lengths of the labels and article lists
+4. Split the data into training and validation sets
+5. Initialize a tokenizer and fit it to the training articles
+6. Convert the training articles into sequences using the tokenizer
+7. Pad the sequence
+8. Print the length of validation sequences and the shape of validation padded
+9. Train the model
+10. Compile the model
+11. Plot the graph
+
+`classification_lstm.ipynb`
+1. Import the libraries
+2. Define the hyperparameter
+3. Preprocess the data and print the lengths of the labels and articles lists
+4. Split the data into training and validation sets
+5. Initialize a tokenizer and fitting it to the training articles
+6. Convert the training articles into sequences using the tokenizer
+7. Pad the sequence
+8. Print the length of validation sequences and the shape of validation padded
+9. Train the model
+10. Compile the model
+11. Plot the graph
+
+`videoClassification_hybridNN.ipynb`
+1. Download data and import the required libraries
+2. Read the data from datasets and print the ten rows
+3. Define the functions for cropping and loading video frames
+4. Build a feature extraction model using the InceptionV3 architecture
+5. Create a string lookup table for labels and print the vocabulary of the label processor
+6. Prepare video data for training and testing by extracting frame features
+7. Define and train a sequence model using GRU layers
+8. Load a test video, extract frame features, and make predictions using the sequence model
