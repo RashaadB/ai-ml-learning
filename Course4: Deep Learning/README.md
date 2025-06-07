@@ -373,6 +373,8 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 - Long range dependencies
 - Transformer models
 - Transformer architecture
+- language translation
+- BERT Model
 
 
 1. Import the required libraries
