@@ -16,3 +16,18 @@
 - Design and implement a CNN using Keras or TensorFlow for image classification
 - Use layers such as convolution, pooling, and dense layers to process the images
 - Apply techniques like dropout, batch normalization, and data augmentation to enhance model robustness
+
+## Task 3: Model training:
+
+- Train the CNN on the images of bikes and cars
+- Experiment with hyperparameters like learning rate, batch size, and the number of epochs to optimize model performance
+
+## Task 4: Model evaluation:
+
+Evaluate the CNN model using standard classification metrics like accuracy, precision, recall, and F1-score
+Assess the impact of various architecture modifications such as changing layer configurations on classification performance
+
+## Task 5: Visualization and reporting:
+
+Visualize the CNN's predictions on sample images, displaying the confidence level for each class (bike or car)
+Provide a final report that includes the CNN model architecture, evaluation metrics, and the final classification results
