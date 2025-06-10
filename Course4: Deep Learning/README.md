@@ -391,6 +391,15 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 4. Create named entity recognition (NER)
 5. Generate a masked language model using a model and a tokenizer
 
+## Autoencoders Folder
+`autoencoders_intro.ipynb`
+- unsupervised deep learning
+    - Clustering
+    - Association
+    - Dimensionality reduction
+- Autoencoders and components
+- Autoencoder Hyperparameters
+- Autoencoder Use cases
 
 ## Projects: Course4 Folder
 
