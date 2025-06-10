@@ -390,3 +390,8 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 3. Create text generation
 4. Create named entity recognition (NER)
 5. Generate a masked language model using a model and a tokenizer
+
+
+## Projects: Course4 Folder
+
+`deepLearning_tensorFlow_keras.ipynb`
