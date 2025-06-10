@@ -397,3 +397,6 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 `deepLearning_tensorFlow_keras.ipynb`
 -  vist the `README.md` in that folder to get scope of each project! 
 
+`home_loan_data.ipynb`
+-  vist the `README.md` in that folder to get scope of each project! 
+

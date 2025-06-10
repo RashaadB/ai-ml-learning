@@ -31,3 +31,20 @@ Assess the impact of various architecture modifications such as changing layer c
 
 Visualize the CNN's predictions on sample images, displaying the confidence level for each class (bike or car)
 Provide a final report that includes the CNN model architecture, evaluation metrics, and the final classification results
+
+## Project 2
+`home_loan_data.ipynb`
+
+<!-- For a safe and secure lending experience, it's important to analyze the past data. In this project, you have to build a deep learning model to predict the chance of default for future loans using historical data. As you will see, this dataset is highly imbalanced and includes a lot of features that make this problem more challenging. 
+
+Create a model that predicts whether or not an applicant will be able to repay a loan using historical data
+-->
+
+- Load the dataset that is given to you
+- Check for null values in the dataset
+- Print the percentage of default to a payer of the dataset for the TARGET column
+- Balance the dataset if the data is imbalanced
+- Plot the balanced or imbalanced data
+- Encode the columns that are required for the model
+- Calculate sensitivity as a metric
+- Calculate the area under the receiver operating characteristics curve
