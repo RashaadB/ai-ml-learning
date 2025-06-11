@@ -401,6 +401,16 @@ welcome to the Course 4, where we will be focusing on Deep learning. Learning ab
 - Autoencoder Hyperparameters
 - Autoencoder Use cases
 
+`building_encoder.ipynb`
+
+1. Import the libraries
+2. Load the dataset and find the shape of the data
+3. Initialize the autoencoder
+4. Compile the autoencoder
+5. Train the model
+6. Visualize the images
+
+
 ## Projects: Course4 Folder
 
 `deepLearning_tensorFlow_keras.ipynb`
