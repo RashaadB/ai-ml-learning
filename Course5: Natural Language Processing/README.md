@@ -1,6 +1,8 @@
 ## Welcome to Course5: Natural Language processing 
 - In this course we will focus on Text Data Analysis, NLP Text vectorization, Distributed representations, machine translation, sequence models, attenction mechanism
 
+## Text Data Analysis Folder
+
 `NLP_intro.ipynb`
 - what is NLP
 - Levels of NLP
