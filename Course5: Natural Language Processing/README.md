@@ -60,3 +60,16 @@
 - Sentiment analysis using TextBlob
 - Sentiment analysis using VADER
 - Sentiment analysis using flair package
+
+## NLP Text Vectorization Folder
+`nlp_text_vectorization.ipynb`
+- Understanding Feature Vectors
+- Word Analogies
+- Distance Calculation
+- Text Vectorization
+- One Hot encoding
+- Bag of words & Terms
+- TF-IDF
+
+
+
