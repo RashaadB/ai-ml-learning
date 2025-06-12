@@ -21,3 +21,40 @@
     - named entity recognition
 - feature engineering
 - sentiment analysis
+
+`text_preprocessing.ipynb`
+- Data cleaning steps
+    - Tokenization
+    - Changing case
+    - Spelling correction
+    - POS Tagging
+    - Named entity recognition (NER)
+    - Stemming and Lemmatization
+- Stemming
+- Lemmatization
+- Noise entity removal
+- Remove stopwords
+- Remove urls
+- Remove punctuations
+- Remove emoticons
+
+`data_exploration_visualization.ipynb`
+- Data extraction
+- Check the files available in the corpus
+- Use the 'Canon_G3.txt'
+- Data exploration and visualization
+- Basic exploration
+- Detailed exploration
+- Word frequency analysis
+- Wordcloud generation
+
+`text_classification.ipynb`
+- Data acquisiton
+- Feature extraction
+- Model development
+- Evaluation
+
+`sentiment_analysis.ipynb`
+- Sentiment analysis using TextBlob
+- Sentiment analysis using VADER
+- Sentiment analysis using flair package
