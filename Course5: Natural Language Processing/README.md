@@ -71,5 +71,14 @@
 - Bag of words & Terms
 - TF-IDF
 
+`one_hot_encoding.ipynb`
+<!-- The goal is to implement one-hot encoding for text data representation. The notebook covers acquiring and cleaning data, generating a vocabulary, and creating a one-hot encoded matrix. It concludes with displaying the matrix, showcasing how categorical text data is transformed into numerical format for machine learning tasks. -->
 
+`bag_of_words.ipynb`
+<!-- The goal is to implement the Bag-of-Words model for text data representation. The notebook introduces the concept and demonstrates its implementation using scikit-learn's CountVectorizer to transform text into numerical vectors for machine learning applications. -->
 
+`tf_idf.ipynb`
+<!-- The goal is to demonstrate the TF-IDF (Term Frequency-Inverse Document Frequency) method for text representation. The notebook introduces the concept and shows how to use scikit-learn's TfidfVectorizer to convert text into weighted numerical vectors, emphasizing the importance of terms in a corpus. -->
+
+`word_two_vec.ipynb`
+<!--  The goal is to provide a comprehensive understanding of Word2Vec, covering its key concepts, architecture, and working principles, including CBOW and Skip-gram models. It explains training, vector representation, loss functions, benefits, applications, and limitations, followed by practical implementation. The code example demonstrates library imports, corpus tokenization, model training, extracting word vectors, finding similar words, and visualizing word embeddings.-->
