@@ -82,3 +82,22 @@
 
 `word_two_vec.ipynb`
 <!--  The goal is to provide a comprehensive understanding of Word2Vec, covering its key concepts, architecture, and working principles, including CBOW and Skip-gram models. It explains training, vector representation, loss functions, benefits, applications, and limitations, followed by practical implementation. The code example demonstrates library imports, corpus tokenization, model training, extracting word vectors, finding similar words, and visualizing word embeddings.-->
+
+## Distributed Representation Folder
+`distributed_representation.ipynb`
+- Draw backs of Fundamental Vectorization
+- Distributed Representations
+- Word Embeddings
+- Word2Vec
+- GloVe Word Representation
+- FastText
+- Doc2Vec
+
+`pre_trained_word_embeddings.ipynb`
+<!-- The objective here is to set up an environment, implement or load a model architecture, and then use a pre-trained embedding model for generating embeddings that can be applied to further tasks in NLP or machine learning applications. -->
+
+`doc_vectors_using_average_spacy.ipynb`
+<!-- The goal is to generate document vectors using SpaCy by processing text data and calculating average vector representations. The notebook demonstrates how to extract linguistic annotations and token-level vectors for further analysis. This approach enables efficient handling of text data for downstream NLP tasks. -->
+
+`training_doc2vec_gensim.ipynb`
+<!-- The goal is to implement paragraph vector models for text representation by preparing the data and leveraging two key approaches: Distributed Bag of Words (DBoW) and Distributed Memory (PV-DM). These methods capture semantic information to create meaningful paragraph embeddings for downstream NLP tasks. -->
