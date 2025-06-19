@@ -101,3 +101,14 @@
 
 `training_doc2vec_gensim.ipynb`
 <!-- The goal is to implement paragraph vector models for text representation by preparing the data and leveraging two key approaches: Distributed Bag of Words (DBoW) and Distributed Memory (PV-DM). These methods capture semantic information to create meaningful paragraph embeddings for downstream NLP tasks. -->
+
+## Machine Translation Folder
+
+`language_preprocessing.ipynb`
+<!-- The goal is to guide language preprocessing by covering essential steps like tokenization, sequencing, padding, and vocabulary indexing. The process includes text, sentence, and word tokenization, followed by converting text into sequences, adding padding for uniform input lengths, and building a vocabulary index. Example code and explanations make it practical for NLP applications. -->
+
+`machine_translation.ipynb`
+<!-- The goal is to build a machine translation pipeline by leveraging embeddings to translate an English dictionary to French. It involves loading necessary libraries and embeddings, working with embedding vectors, and using cosine similarity to measure semantic similarity. Additionally, gradient computation optimizes the transformation matrix for effective translation. -->
+
+`machine_translation_Encoder_decoder.ipynb`
+<!-- The goal is to implement a machine translation system using an encoder-decoder model. It involves preparing a suitable dataset, defining the model architecture, training it to translate between languages, and performing inference to generate translations. The conclusion summarizes the results and insights from the implementation. -->
