@@ -110,5 +110,8 @@
 `machine_translation.ipynb`
 <!-- The goal is to build a machine translation pipeline by leveraging embeddings to translate an English dictionary to French. It involves loading necessary libraries and embeddings, working with embedding vectors, and using cosine similarity to measure semantic similarity. Additionally, gradient computation optimizes the transformation matrix for effective translation. -->
 
+`enocder_decoder_model.ipynb`
+<!-- The goal is to implement an encoder-decoder architecture for sentiment analysis using the IMDB dataset. The process includes importing libraries, preprocessing data, defining the model, preparing decoder inputs, fitting the model, and evaluating its performance. The conclusion summarizes the effectiveness of this architecture in sentiment analysis. -->
+
 `machine_translation_Encoder_decoder.ipynb`
 <!-- The goal is to implement a machine translation system using an encoder-decoder model. It involves preparing a suitable dataset, defining the model architecture, training it to translate between languages, and performing inference to generate translations. The conclusion summarizes the results and insights from the implementation. -->
