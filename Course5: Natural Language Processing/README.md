@@ -117,5 +117,6 @@
 <!-- The goal is to implement a machine translation system using an encoder-decoder model. It involves preparing a suitable dataset, defining the model architecture, training it to translate between languages, and performing inference to generate translations. The conclusion summarizes the results and insights from the implementation. -->
 
 ## Sequence Models Folder
+
 `nlp_with_rnn.ipynb`
 <!-- The goal is to explore sequence models, starting with an overview of RNNs, their functioning, and limitations, followed by advanced architectures like LSTMs and bi-directional RNNs. The process includes building and training these models to handle sequential data effectively, concluding with key takeaways for practical understanding. -->
