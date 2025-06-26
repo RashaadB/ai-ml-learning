@@ -131,3 +131,9 @@
 
 `classification.ipynb`
 <!-- The goal is to build and fine-tune a Transformer-based model by loading a dataset, preparing data, and training a classifier using extracted features and hidden states. It further involves fine-tuning the model, performing error analysis, and saving the trained model for sharing and reuse. -->
+
+## Course5: Projects Folder
+<!-- Develop an end-to-end NLP pipeline to analyze customer reviews for sentiment classification and key topic extraction. This system will help BikeEase identify customer pain points and areas of improvement. -->
+- Data Collection
+- Preprocessing
+- Sentiment analysis
