@@ -120,3 +120,14 @@
 
 `nlp_with_rnn.ipynb`
 <!-- The goal is to explore sequence models, starting with an overview of RNNs, their functioning, and limitations, followed by advanced architectures like LSTMs and bi-directional RNNs. The process includes building and training these models to handle sequential data effectively, concluding with key takeaways for practical understanding. -->
+
+## Attention Mechanism Folder
+
+`attention_mechanism_intro.ipynb`
+<!-- The goal is to understand the fundamentals, mechanisms, and practical applications of Transformers, which have set new benchmarks in NLP tasks by offering greater accuracy, flexibility, and efficiency compared to prior models. -->
+
+`transformer_architecture.ipynb`
+<!-- The goal is to understand the Transformer architecture by exploring how the encoder’s self-attention and positional embeddings process data, followed by the decoder’s role in handling sequence tasks, with key components like multi-headed attention and classification heads enhancing performance. -->
+
+`classification.ipynb`
+<!-- The goal is to build and fine-tune a Transformer-based model by loading a dataset, preparing data, and training a classifier using extracted features and hidden states. It further involves fine-tuning the model, performing error analysis, and saving the trained model for sharing and reuse. -->
