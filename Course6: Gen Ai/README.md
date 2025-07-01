@@ -21,3 +21,9 @@
 - Train the Models
 - Execute the Training
 - Generate New Images and Evaluate the Model's Performance
+
+## LangChain and LLMs Folder
+`intro_langchain.ipynb`
+- Language Models
+- LLMs
+- architecture of LLMs
