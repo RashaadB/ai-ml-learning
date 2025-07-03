@@ -30,3 +30,12 @@
 - LangChain
 - LangChain architecture
 - Systems requirements for LangChain
+
+`text_generation.ipynb`
+- Define Stopwords and Punctuation
+- Load Sentences and Generate N-grams
+- Remove Stopwords from N-grams
+- Calculate Frequency Distributions
+- Create a Dictionary of Trigram Frequencies
+- Define the Text Generation Function
+- Execute the Text Generation Function
