@@ -39,3 +39,10 @@
 - Create a Dictionary of Trigram Frequencies
 - Define the Text Generation Function
 - Execute the Text Generation Function
+
+`text_generation_pipeline_langchain.ipynb`
+- Authenticate the Hugging Face Account and Set the API Key
+- Use the Hugging Face Hub to Load the Flan T5 XXL model
+- Create a Langchain HuggingFacePipeline for Text Generation
+- Build a Chain Using Langchain
+- Test and Run the Chain on Few a Questions
