@@ -27,3 +27,6 @@
 - Language Models
 - LLMs
 - architecture of LLMs
+- LangChain
+- LangChain architecture
+- Systems requirements for LangChain
