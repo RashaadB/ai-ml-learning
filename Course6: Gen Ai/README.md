@@ -46,3 +46,10 @@
 - Create a Langchain HuggingFacePipeline for Text Generation
 - Build a Chain Using Langchain
 - Test and Run the Chain on Few a Questions
+
+## Advanced Prompting Folder
+`advanced_prompting.ipynb`
+- Prompt Engineering
+- Optimizing Basic Prompts
+- Advanced Prompt Engineering
+- LLM settings for prompting
