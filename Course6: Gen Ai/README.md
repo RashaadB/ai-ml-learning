@@ -53,3 +53,5 @@
 - Optimizing Basic Prompts
 - Advanced Prompt Engineering
 - LLM settings for prompting
+- Prompt Elements
+- Promt Techniques
