@@ -55,3 +55,13 @@
 - LLM settings for prompting
 - Prompt Elements
 - Promt Techniques
+
+`zero_shot_promting.ipynb`
+- Set up the OpenAI API Key
+- Define a Function to Get Completion
+- Define Your Prompt
+
+`few_shot_promting.ipynb`
+- Set up the OpenAI API Key
+- Define a Function to Get Completion
+- Define Your Prompt
