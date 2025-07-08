@@ -55,6 +55,10 @@
 - LLM settings for prompting
 - Prompt Elements
 - Promt Techniques
+- CoT prompting
+- Self consistency prompting
+- ToT prompting
+- LangChain prompts
 
 `zero_shot_promting.ipynb`
 - Set up the OpenAI API Key
@@ -65,3 +69,41 @@
 - Set up the OpenAI API Key
 - Define a Function to Get Completion
 - Define Your Prompt
+
+`chain_of_thought.ipynb`
+- Set up the OpenAI API Key
+- Define a Function to Get Completion
+
+`self_consistence.ipynb`
+- Set up the OpenAI API Key
+- Define a Function to Get Completion
+- Define Your Prompts
+
+`tree_of_thoughts.ipynb`
+- Set up the OpenAI API Key
+- Define a Function to Get Completion
+- Define Your Prompts
+
+`jinja2_template_format.ipynb`
+- Define a Template Using the Jinja2 Format
+- Create a Prompt Using the Jinja2 Template
+- Use the Prompt to Generate a Question
+
+`f_string-templet.ipynb`
+- Define a Template Using the f-string Format
+- Create a Prompt Using the f-string Template
+- Use the Prompt to Generate a Question
+- Output the Summary
+
+`custom_templet.ipynb`
+- Set up the Environment
+- Define the Prompt Template
+- Create a Custom Prompt Template Class
+
+`dynamic_message_langchain.ipynb`
+- Import the Necessary Components
+- Define Message Templates
+- Create a Chat Prompt with Placeholders
+- Define the Conversation Messages
+- Generate the Conversation
+- Print the Conversation
