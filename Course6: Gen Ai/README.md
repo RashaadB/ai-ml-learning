@@ -47,6 +47,18 @@
 - Build a Chain Using Langchain
 - Test and Run the Chain on Few a Questions
 
+`langchain_llm_application.ipynb`
+- Model I/O
+    - prompts
+    - language models
+    - parsers
+- Document Loaders
+- Text splitters
+    - CharacterTextSplitter
+    - RecursiveTextSplitter
+- Embeddings in GenAi
+- Text embedding in langChain
+
 ## Advanced Prompting Folder
 `advanced_prompting.ipynb`
 - Prompt Engineering
