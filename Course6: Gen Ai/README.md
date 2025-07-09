@@ -59,6 +59,16 @@
 - Embeddings in GenAi
 - Text embedding in langChain
 
+`langchain_prompt_outputparser.ipynb`
+- Set up the Environment
+- Call Direct API to OpenAI
+- Call the Direct API at OpenAI
+- Use the Chat Model
+- Format a New Message
+- Generate a Response in a New Style
+- Output Parsers
+- Use the Output Parser
+
 ## Advanced Prompting Folder
 `advanced_prompting.ipynb`
 - Prompt Engineering
