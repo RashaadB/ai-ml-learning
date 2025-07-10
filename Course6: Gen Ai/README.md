@@ -58,6 +58,15 @@
     - RecursiveTextSplitter
 - Embeddings in GenAi
 - Text embedding in langChain
+- VectorStore
+- LangChain retriever
+- Langchain chains
+- sequenntial chain 
+- stuff chain
+- refine chain
+- map reduce chain
+- langChain memory
+- LangChain agents
 
 `langchain_prompt_outputparser.ipynb`
 - Set up the Environment
