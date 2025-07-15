@@ -183,3 +183,21 @@ The two files in the tutorial serve as practical examples of real-world data tha
 
 ## LLM Fine Tuning and Customization Folder
 `fine_tuning_intro.ipynb`
+- Need of fine tuning
+- data preparation
+- fine tuning methodologies
+- supervised fine tuning
+- parameter efficient fine tuning
+    - LoRA
+    - P tuning (prompt tuning)
+    - Prefix tuning
+    - adapters
+    - AdaLoRA
+- reinforcement leanring
+- hyperparameter tuning 
+- evaluation of fine tuning models
+- hands on fine tuning
+- fine tuning best practices
+- common biases with llm fine tuning
+    - spurious correlations and underrepreentation
+    - fairness and inductive biases
