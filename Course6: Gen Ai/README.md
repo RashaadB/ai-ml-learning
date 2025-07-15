@@ -201,3 +201,25 @@ The two files in the tutorial serve as practical examples of real-world data tha
 - common biases with llm fine tuning
     - spurious correlations and underrepreentation
     - fairness and inductive biases
+
+`fairness and inductive biases`
+1. Import necessary libraries
+2. Load and prepare the dataset
+3. Tokenize a single example
+4. Handle long sequences
+5. Tokenize the instruction dataset
+6. Tokenize the entire dataset
+7. Add labels
+8. Prepare test/train splits
+
+`generate_images_openai.ipynb`
+1. Setup the environment
+2. Generate image from the text
+3. Display the generated images
+
+`falcon_fine_tuning.ipynb`
+1. Set up your environment for the project
+2. Load the dataset using hugging face
+3. Create a large language model (LLM) for your project
+4. Develop an LLM tokenizer for processing text
+5. Save your trained model and generate inferences as needed
