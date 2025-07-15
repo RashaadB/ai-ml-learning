@@ -78,6 +78,48 @@
 - Output Parsers
 - Use the Output Parser
 
+`langchain_loader_splitter_embeddings_vectorstore.ipynb`
+<!-- In this activity, you will implement the functionalities of LangChain’s loaders, splitters, embeddings, and VectorStores.
+The two files in the tutorial serve as practical examples of real-world data that one might encounter in natural language processing tasks. They are:
+
+•	The **state_of_union.txt** file, which contains transcripts of the United States’ State of the Union Addresses, represents a large text document that can be loaded and processed.
+
+•	The **michael_resume.pdf** file, an open source resume, represents a common type of document that one might analyze for tasks such as resume screening or information extraction. -->
+
+`langchain_sequential_chain.ipynb`
+1. Import the Necessary Modules
+2. Define a Function to Print Responses from Our Chains
+3. Initialize the Chat Model
+4. Define the First Chain
+5. Define the Second Chain
+6. Define the Sequential Chain
+7. Run the Sequential Chain
+
+`langchain_memory.ipynb`
+ Import the Necessary Modules
+2. Initialize the Chat Model
+3. Define ConversationBufferMemory
+4. Define ConversationBufferWindowMemory with a Window Size of 1
+5. Define ConversationTokenBufferMemory with a Maximum Token Limit of 30
+6. Define ConversationSummaryBufferMemory with a Maximum Token Limit of 100
+
+`langchain_agents.ipynb`
+1. Import the Necessary Modules
+2. Initialize the Chat Model
+3. Load the Tools
+4. Initialize Agent
+5. Use Agent to Ask Questions
+6. Use Agent to Ask Another Question
+
+`run_llm_falcon.ipynb`
+1. Set up the Environment
+2. Download Falcon 7B Model and Tokenizer from Hugging Face
+3. Set up Model and Generation Configuration
+3. Build the Conversation Chain
+4. Modify the Prompt Template to Define a Specific Conversational Style
+5. Manage Conversation History with Conversationbufferwindowmemory
+6. Interact with the LLM
+
 ## Advanced Prompting Folder
 `advanced_prompting.ipynb`
 - Prompt Engineering
