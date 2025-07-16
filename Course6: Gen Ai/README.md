@@ -223,3 +223,13 @@ The two files in the tutorial serve as practical examples of real-world data tha
 3. Create a large language model (LLM) for your project
 4. Develop an LLM tokenizer for processing text
 5. Save your trained model and generate inferences as needed
+
+## Benchmark and Evaluation of LLMs Folder
+
+`benchmark_intro.ipynb`
+- LLM capabilities
+    - summarization
+    - Content translation
+    - Chatbots and virtual assistants
+    - sentiment analysis
+- benchmarking
