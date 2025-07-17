@@ -233,3 +233,18 @@ The two files in the tutorial serve as practical examples of real-world data tha
     - Chatbots and virtual assistants
     - sentiment analysis
 - benchmarking
+- benchmarks for evaluating llms
+
+`rouge_benchmark.ipynb`
+<!-- his demo is designed to read a PDF file and a summary of that file, and then compute the ROUGE scores for the summary by comparing it with the original document. The ROUGE scores provide a measure of the quality of the summary. -->
+
+`text_summarizer.ipynb`
+<!-- In this demo, you will create an Arxiv paper summarizer that downloads a paper as a PDF, reads it in one shot, and generates a summary. You can use the **The Impact of Generative Artificial Intelligence** paper as an example for demonstration. -->
+
+`multi_pdf_retriever.ipynb`
+<!-- In this demo, you will learn how to use LangChain to create a MultiPDF retriever with ChromaDB. This demo is performed on new generative AI research paper PDFs. You will understand how to load and process documents, create a database, make a retriever, create a chain, and use the retriever to ask questions and get answers. -->
+
+`sentiment_analysis.ipynb`
+<!-- In this demo, we aim to utilize two different tools to analyze the sentiment of a given text. The two tools are:
+*   OpenAI's GPT-3 API
+*   TextBlob -->
