@@ -50,3 +50,8 @@ venv.bak/
 *.rar
 *.7z
 *.bak
+
+# large files
+.csv
+
+yolo_dataset.yam
