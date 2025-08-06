@@ -35,6 +35,7 @@ venv.bak/
 *.bak
 *.swp
 *.swo
+*.jpg
 
 # VS Code workspace files
 .vscode/
