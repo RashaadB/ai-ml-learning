@@ -55,4 +55,9 @@ venv.bak/
 # large files
 .csv
 
-yolo_dataset.yam
+yolo_dataset.yaml
+
+cell_explanations
+slide_images
+capstone_project_slides 
+slides.html
