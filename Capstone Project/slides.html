@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project Slides</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css">
+    <style>
+        .reveal .slides { text-align: left; }
+        .reveal .slides section { padding: 20px; }
+        .reveal img { margin: 20px 0; max-height: 500px; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Capstone Project</h1>
+                <h3>Notebook Summary Slides</h3>
+                <p>A concise slide deck highlighting key results and plots</p>
+            </section>
+
+            <section>
+                <h2>Outline</h2>
+                <ul>
+                    <li>Preflight and environment checks</li>
+                    <li>Data overview and preprocessing</li>
+                    <li>Exploratory data analysis: key plots</li>
+                    <li>TF-IDF and caching</li>
+                    <li>Machine learning models</li>
+                    <li>Deep learning: Keras &amp; PyTorch</li>
+                    <li>Computer Vision: ResNet50 &amp; YOLO</li>
+                    <li>Embeddings, FAISS, and Gradio demo</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Top 10 Product Categories</h2>
+                <img src="slide_images/plot_00.png" alt="Top categories">
+                <aside class="notes">
+                    Key observations about which categories dominate review volume
+                </aside>
+            </section>
+
+            <section>
+                <h2>Rating Distribution by Category</h2>
+                <img src="slide_images/plot_01.png" alt="Rating distribution">
+                <aside class="notes">
+                    Note the variance across categories and outliers
+                </aside>
+            </section>
+
+            <section>
+                <h2>Correlation Heatmap</h2>
+                <img src="slide_images/plot_02.png" alt="Correlation heatmap">
+                <aside class="notes">
+                    Key correlations between helpful votes, total votes, and verified purchase
+                </aside>
+            </section>
+
+            <section>
+                <h2>Review Volume Over Time</h2>
+                <img src="slide_images/plot_03.png" alt="Reviews over time">
+                <aside class="notes">
+                    Discuss trends and any gaps in data collection across years
+                </aside>
+            </section>
+
+            <section>
+                <h2>Machine Learning Results</h2>
+                <ul>
+                    <li>Regression models (Linear, Ridge, Lasso) to predict star rating</li>
+                    <li>Classification with sentiment polarity (TextBlob)</li>
+                    <li>Ensemble methods: Random Forest, AdaBoost, Gradient Boosting</li>
+                    <li>Imbalance handling with SMOTE</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>ResNet50 Confusion Matrix</h2>
+                <img src="slide_images/plot_09.png" alt="ResNet confusion matrix">
+                <aside class="notes">
+                    Discuss which classes the model confuses and possible reasons
+                </aside>
+            </section>
+
+            <section>
+                <h2>Next Steps</h2>
+                <ul>
+                    <li>Hyperparameter tuning</li>
+                    <li>Larger TF-IDF vocabulary</li>
+                    <li>Test transformer-based text features</li>
+                    <li>Deploy Gradio demo</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: true,
+            controls: true,
+            progress: true,
+            center: false,
+            width: 1200,
+            height: 800,
+            margin: 0.05,
+            minScale: 0.1,
+            maxScale: 2.0
+        });
+    </script>
+</body>
+</html>
