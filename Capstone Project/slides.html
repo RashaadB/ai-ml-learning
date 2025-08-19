@@ -5,95 +5,350 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capstone Project Slides</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/moon.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        .reveal .slides { text-align: left; }
-        .reveal .slides section { padding: 20px; }
-        .reveal img { margin: 20px 0; max-height: 500px; }
+        :root {
+            --accent-color: #61AFEF;
+            --text-color: #ABB2BF;
+            --bg-color: #282C34;
+            --heading-color: #E06C75;
+        }
+        .reveal {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        .reveal .slides { 
+            text-align: left; 
+        }
+        .reveal .slides section { 
+            padding: 20px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        /* Two-column layout used for image + text slides */
+        .two-column {
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+            align-items: center;
+            width: 100%;
+        }
+        .two-column .col-image {
+            flex: 1 1 55%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .two-column .col-image img {
+            width: 100%;
+            max-width: 800px;
+            max-height: 70vh;
+            object-fit: contain;
+        }
+        .two-column .col-text {
+            flex: 1 1 45%;
+            max-height: 70vh;
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .reveal h1 { 
+            color: var(--heading-color);
+            font-size: 2.5em;
+            text-transform: none;
+            margin-bottom: 0.5em;
+        }
+        .reveal h2 { 
+            color: var(--accent-color);
+            font-size: 1.8em;
+            text-transform: none;
+            margin-bottom: 0.8em;
+        }
+        .reveal h3 { 
+            color: var(--text-color);
+            font-size: 1.4em;
+            margin-bottom: 1em;
+        }
+        .reveal img { 
+            margin: 10px auto;
+            max-height: 45vh;
+            max-width: 90%;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        .data-flow { 
+            font-size: 0.9em;
+            background: rgba(97, 175, 239, 0.1);
+            padding: 15px 20px;
+            margin: 10px 0;
+            border-left: 4px solid var(--accent-color);
+            border-radius: 0 8px 8px 0;
+            flex-grow: 1;
+            overflow-y: auto;
+        }
+        .data-flow h4 {
+            color: var(--accent-color);
+            margin: 0 0 10px 0;
+        }
+        .data-flow ul, .data-flow ol {
+            margin: 0.5em 0;
+            padding-left: 1.5em;
+        }
+        .data-flow li {
+            margin: 0.3em 0;
+            line-height: 1.4;
+        }
+        .reveal pre {
+            background: rgba(40, 44, 52, 0.8);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+        }
+        .title-slide {
+            text-align: center !important;
+        }
+        .reveal .progress {
+            color: var(--accent-color);
+            height: 4px;
+        }
+        .reveal .slide-number {
+            background-color: transparent;
+        }
+        .reveal .controls {
+            color: var(--accent-color);
+        }
+        /* Responsive behavior: stack columns on narrow screens */
+        @media (max-width: 900px) {
+            .two-column {
+                flex-direction: column;
+            }
+            .two-column .col-image img {
+                max-height: 45vh;
+                max-width: 95%;
+            }
+            .two-column .col-text {
+                max-height: none;
+            }
+        }
+        /* Image-only follow-up slide styling */
+        .image-slide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 10px 40px;
+        }
+        .image-slide img {
+            max-width: 95%;
+            max-height: 78vh;
+            border-radius: 8px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+        }
+        .image-slide .caption {
+            color: var(--text-color);
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
     </style>
 </head>
 <body>
     <div class="reveal">
         <div class="slides">
-            <section>
-                <h1>Capstone Project</h1>
-                <h3>Notebook Summary Slides</h3>
-                <p>A concise slide deck highlighting key results and plots</p>
+            <section class="title-slide">
+                <h1>Capstone Project Analysis</h1>
+                <h3>A Deep Dive into Amazon Apparel Reviews</h3>
+                <div class="data-flow">
+                    <h4>Data Sources:</h4>
+                    <ul>
+                        <li>🗃️ amazon_reviews_us_Apparel_v1_00.csv: Main reviews dataset</li>
+                        <li>📊 product_data.jsonl: Product metadata</li>
+                        <li>🏷️ image_labels.csv: Image classifications</li>
+                    </ul>
+                </div>
             </section>
 
             <section>
-                <h2>Outline</h2>
-                <ul>
-                    <li>Preflight and environment checks</li>
-                    <li>Data overview and preprocessing</li>
-                    <li>Exploratory data analysis: key plots</li>
-                    <li>TF-IDF and caching</li>
-                    <li>Machine learning models</li>
-                    <li>Deep learning: Keras &amp; PyTorch</li>
-                    <li>Computer Vision: ResNet50 &amp; YOLO</li>
-                    <li>Embeddings, FAISS, and Gradio demo</li>
-                </ul>
+                <h2>Data Processing Pipeline</h2>
+                <div class="data-flow">
+                    <h4>Pipeline Overview:</h4>
+                    <ol>
+                        <li>Load and clean raw data (CSV, JSONL)</li>
+                        <li>Feature engineering (text processing, date parsing)</li>
+                        <li>Generate visualizations (matplotlib/seaborn)</li>
+                        <li>Cache processed data (artifacts/)</li>
+                        <li>Train models and evaluate</li>
+                    </ol>
+                </div>
             </section>
 
             <section>
                 <h2>Top 10 Product Categories</h2>
+                <div class="data-flow">
+                    <h4>Data Processing:</h4>
+                    <ol>
+                        <li>Load reviews from amazon_reviews_us_Apparel_v1_00.csv</li>
+                        <li>Group by product category</li>
+                        <li>Count reviews per category</li>
+                        <li>Sort and select top 10</li>
+                        <li>Plot using seaborn barplot</li>
+                    </ol>
+                </div>
+            </section>
+            <section class="image-slide">
                 <img src="slide_images/plot_00.png" alt="Top categories">
-                <aside class="notes">
-                    Key observations about which categories dominate review volume
-                </aside>
+                <div class="caption">Top 10 categories by review count — visualization generated from aggregated review data.</div>
             </section>
 
             <section>
                 <h2>Rating Distribution by Category</h2>
+                <div class="data-flow">
+                    <h4>Data Processing:</h4>
+                    <ol>
+                        <li>Filter reviews with valid ratings</li>
+                        <li>Group by product category</li>
+                        <li>Calculate rating statistics</li>
+                        <li>Generate boxplot showing distribution</li>
+                        <li>Plot saved as plot_01.png</li>
+                    </ol>
+                </div>
+            </section>
+            <section class="image-slide">
                 <img src="slide_images/plot_01.png" alt="Rating distribution">
-                <aside class="notes">
-                    Note the variance across categories and outliers
-                </aside>
+                <div class="caption">Distribution of star ratings across categories — shows variance and outliers.</div>
             </section>
 
             <section>
-                <h2>Correlation Heatmap</h2>
+                <h2>Correlation Analysis</h2>
+                <div class="data-flow">
+                    <h4>Data Processing:</h4>
+                    <ol>
+                        <li>Select numeric features from reviews</li>
+                        <li>Calculate correlation matrix</li>
+                        <li>Generate heatmap using seaborn</li>
+                        <li>Annotate with correlation values</li>
+                        <li>Save as plot_02.png</li>
+                    </ol>
+                </div>
+            </section>
+            <section class="image-slide">
                 <img src="slide_images/plot_02.png" alt="Correlation heatmap">
-                <aside class="notes">
-                    Key correlations between helpful votes, total votes, and verified purchase
-                </aside>
+                <div class="caption">Correlation heatmap for numeric features — useful to spot collinearity.</div>
             </section>
 
             <section>
                 <h2>Review Volume Over Time</h2>
+                <div class="data-flow">
+                    <h4>Data Processing:</h4>
+                    <ol>
+                        <li>Parse review dates from dataset</li>
+                        <li>Group reviews by time period</li>
+                        <li>Calculate review counts</li>
+                        <li>Generate time series plot</li>
+                        <li>Save visualization as plot_03.png</li>
+                    </ol>
+                </div>
+            </section>
+            <section class="image-slide">
                 <img src="slide_images/plot_03.png" alt="Reviews over time">
-                <aside class="notes">
-                    Discuss trends and any gaps in data collection across years
-                </aside>
+                <div class="caption">Review count across years — highlights trends and seasonality.</div>
             </section>
 
             <section>
-                <h2>Machine Learning Results</h2>
-                <ul>
-                    <li>Regression models (Linear, Ridge, Lasso) to predict star rating</li>
-                    <li>Classification with sentiment polarity (TextBlob)</li>
-                    <li>Ensemble methods: Random Forest, AdaBoost, Gradient Boosting</li>
-                    <li>Imbalance handling with SMOTE</li>
-                </ul>
+                <h2>Machine Learning Pipeline — Part 1</h2>
+                <div class="data-flow">
+                    <h4>Text Processing & Targets:</h4>
+                    <ol>
+                        <li>Text preprocessing:
+                            <ul>
+                                <li>Clean and tokenize reviews</li>
+                                <li>Build TF-IDF features (cached in artifacts/tfidf.pkl)</li>
+                            </ul>
+                        </li>
+                        <li>Target preparation:
+                            <ul>
+                                <li>Star ratings for regression</li>
+                                <li>Sentiment classes for classification</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Machine Learning Pipeline — Part 2</h2>
+                <div class="data-flow">
+                    <h4>Model Training:</h4>
+                    <ol>
+                        <li>Data splitting and preprocessing pipelines</li>
+                        <li>Handle class imbalance: SMOTE, undersampling, class weights</li>
+                        <li>Train multiple models (LogReg, RF, GB, ensembles)</li>
+                        <li>Evaluate with classification reports and confusion matrices</li>
+                    </ol>
+                </div>
             </section>
 
             <section>
-                <h2>ResNet50 Confusion Matrix</h2>
+                <h2>ResNet50 Training & Results — Data & Setup</h2>
+                <div class="data-flow">
+                    <h4>Computer Vision Pipeline — Setup:</h4>
+                    <ol>
+                        <li>Image preparation:
+                            <ul>
+                                <li>Load from dataset/images/</li>
+                                <li>Organize into train/val/test</li>
+                                <li>Apply augmentation</li>
+                            </ul>
+                        </li>
+                        <li>Model setup:
+                            <ul>
+                                <li>Load ResNet50 architecture</li>
+                                <li>Configure fine-tuning layers</li>
+                                <li>Set up training parameters</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>ResNet50 Training & Results — Evaluation</h2>
+                <div class="data-flow">
+                    <h4>Evaluation & Metrics:</h4>
+                    <ol>
+                        <li>Generate predictions on test set</li>
+                        <li>Create confusion matrix (plot_09.png)</li>
+                        <li>Calculate metrics per class (precision, recall, F1)</li>
+                        <li>Inspect class-level confusions to inform augmentation or class rebalancing</li>
+                    </ol>
+                </div>
+            </section>
+            <section class="image-slide">
                 <img src="slide_images/plot_09.png" alt="ResNet confusion matrix">
-                <aside class="notes">
-                    Discuss which classes the model confuses and possible reasons
-                </aside>
+                <div class="caption">Confusion matrix for ResNet50 — shows class-level performance and confusions.</div>
             </section>
 
             <section>
-                <h2>Next Steps</h2>
-                <ul>
-                    <li>Hyperparameter tuning</li>
-                    <li>Larger TF-IDF vocabulary</li>
-                    <li>Test transformer-based text features</li>
-                    <li>Deploy Gradio demo</li>
-                </ul>
+                <h2>Artifact Organization</h2>
+                <div class="data-flow">
+                    <h4>Project Structure:</h4>
+                    <pre style="font-size: 0.7em">
+Capstone Project/
+├── artifacts/          # Cached computations
+│   ├── tfidf.pkl      # Vectorizer
+│   └── tfidf_matrix.pkl
+├── dataset/           # Images & labels
+│   └── images/
+├── slide_images/      # Generated plots
+│   ├── plot_00.png
+│   ├── plot_01.png
+│   └── ...
+└── runs/             # Model outputs
+    └── detect/</pre>
+                </div>
             </section>
+
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
