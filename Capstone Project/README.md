@@ -143,16 +143,6 @@ The predictions will be saved under `runs/detect` unless you set a different `sa
   - Add unit tests for data loading and label parsing so mistakes are caught early.
 
 
-## Notes about authorship and license
-
-This repository contains work produced for a capstone project. If you share the project, add a license file to clarify how others can use the code and data.
-
-
-## Contact and further help
-
-If you need specific help running a notebook, training the YOLO model, or reproducing the TF-IDF artifacts, tell me the operating system, Python version, and whether you have a GPU. I can provide step by step commands to run locally.
-
-
 ## Short checklist to get started
 
 1. Create and activate a virtual environment.  
