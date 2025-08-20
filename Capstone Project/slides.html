@@ -21,7 +21,7 @@
             text-align: left; 
         }
         .reveal .slides section { 
-            padding: 20px;
+            padding: 12px;
             height: 100%;
             display: flex;
             flex-direction: column;
@@ -81,8 +81,8 @@
         .data-flow { 
             font-size: 0.9em;
             background: rgba(97, 175, 239, 0.1);
-            padding: 15px 20px;
-            margin: 10px 0;
+            padding: 12px 16px;
+            margin: 8px 0;
             border-left: 4px solid var(--accent-color);
             border-radius: 0 8px 8px 0;
             flex-grow: 1;
@@ -106,6 +106,11 @@
             padding: 15px;
             margin: 10px 0;
             box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+        }
+        /* prevent pre blocks from growing too large inside slides */
+        .data-flow pre {
+            max-height: 30vh;
+            overflow: auto;
         }
         .title-slide {
             text-align: center !important;
@@ -139,8 +144,8 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 12px;
-            padding: 10px 40px;
+            gap: 10px;
+            padding: 8px 24px;
         }
         .image-slide img {
             max-width: 95%;
@@ -152,6 +157,27 @@
             color: var(--text-color);
             font-size: 0.95em;
             opacity: 0.9;
+        }
+        /* Artifact organization styles */
+        .artifact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            align-items: start;
+        }
+        .artifact-item {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(97,175,239,0.08);
+            padding: 12px 14px;
+            border-radius: 8px;
+        }
+        .artifact-item h5 { margin: 0 0 6px 0; color: var(--accent-color); }
+    /* artifact legend removed per user request */
+        /* Allow the artifact tree to display fully without its own scrollbar */
+        .artifact-section .data-flow,
+        .artifact-section .data-flow pre {
+            max-height: none;
+            overflow: visible;
         }
     </style>
 </head>
@@ -167,6 +193,79 @@
                         <li>🗃️ amazon_reviews_us_Apparel_v1_00.csv: Main reviews dataset</li>
                         <li>📊 product_data.jsonl: Product metadata</li>
                         <li>🏷️ image_labels.csv: Image classifications</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- General project overview slides inserted here -->
+            <section>
+                <h2>Project Overview</h2>
+                <div class="data-flow">
+                    <p>This capstone explores Amazon Apparel reviews using EDA, classical ML, and deep learning for both text and images. The work demonstrates a full ML workflow: data ingestion → preprocessing → feature engineering → modeling → evaluation → deployment-ready artifacts.</p>
+                    <ul>
+                        <li>Scope: EDA, TF-IDF & classical models, ResNet50 fine-tuning, YOLO detection, embeddings + FAISS demo.</li>
+                        <li>Deliverables: reproducible notebooks, cached artifacts, trained model checkpoints, and a reveal.js slide deck.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Project Goals & Key Questions</h2>
+                <div class="data-flow">
+                    <ol>
+                        <li>Understand dataset biases and distribution across categories and time.</li>
+                        <li>Build baseline models to predict ratings and sentiment from text.</li>
+                        <li>Fine-tune vision models to classify product images and test object detection with YOLO.</li>
+                        <li>Demonstrate retrieval (FAISS) and a Gradio demo for product-level search/RAG-style descriptions.</li>
+                    </ol>
+                </div>
+            </section>
+
+            <section>
+                <h2>Data Summary</h2>
+                <div class="data-flow">
+                    <h4>Primary files:</h4>
+                    <ul>
+                        <li><strong>amazon_reviews_us_Apparel_v1_00.csv</strong> - reviews, ratings, timestamps (main table for EDA & modeling).</li>
+                        <li><strong>product_data.jsonl</strong> - product metadata (titles, brands, categories) used to enrich analysis.</li>
+                        <li><strong>image_labels.csv</strong> and <strong>Images.zip</strong> - used to create the CV dataset under <code>dataset/</code>.</li>
+                    </ul>
+                    <p>Notes: large raw files are sampled for demos via <code>SMOKE_TEST</code>. Image labels are in YOLO format under <code>dataset/labels</code>.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Artifacts & Models</h2>
+                <div class="data-flow">
+                    <ul>
+                        <li><code>artifacts/tfidf.pkl</code> and <code>artifacts/tfidf_matrix.pkl</code> - cached TF-IDF vectorizer and matrix to speed up experiments.</li>
+                        <li><code>yolov8n.pt</code> and <code>runs/detect/</code> - YOLO checkpoint and training outputs.</li>
+                        <li>Slide images under <code>slide_images/</code> and the presentation file <code>slides.html</code>.</li>
+                    </ul>
+                    <p>Recommendation: keep final checkpoints and small artifacts in version control; move large temp outputs to an archive or .gitignore.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>How to run / Reproduce</h2>
+                <div class="data-flow">
+                    <ol>
+                        <li>Run the preflight cell in <code>capstone_project_one.ipynb</code> or <code>capstone_project_slides.ipynb</code> to check environment.</li>
+                        <li>Set <code>SMOKE_TEST=True</code> for demos, otherwise set it to <code>False</code> for full runs.</li>
+                        <li>Generate artifacts (TF-IDF) by running the TF-IDF cells or using cached files in <code>artifacts/</code>.</li>
+                        <li>For CV: ensure <code>dataset/images</code> and <code>dataset/labels</code> are populated before running YOLO or ResNet cells.</li>
+                        <li>Open <code>slides.html</code> in a browser or run a local server: <code>python3 -m http.server 8001</code> and visit <code>http://localhost:8001/slides.html</code>.</li>
+                    </ol>
+                </div>
+            </section>
+
+            <section>
+                <h2>Next Steps & Recommendations</h2>
+                <div class="data-flow">
+                    <ul>
+                        <li>Tune models and compare with transformer-based text models (e.g., DistilBERT) for higher performance.</li>
+                        <li>Increase CV dataset size or use stronger augmentations to reduce class confusion.</li>
+                        <li>Package the FAISS + Gradio demo for easy local deploy and provide sample inputs for reproducible demos.</li>
+                        <li>Create a small README or MANIFEST.md summarizing heavy files and how to reproduce artifacts.</li>
                     </ul>
                 </div>
             </section>
@@ -200,7 +299,7 @@
             </section>
             <section class="image-slide">
                 <img src="slide_images/plot_00.png" alt="Top categories">
-                <div class="caption">Top 10 categories by review count — visualization generated from aggregated review data.</div>
+                <div class="caption">Top 10 categories by review count - visualization generated from aggregated review data.</div>
             </section>
 
             <section>
@@ -218,7 +317,7 @@
             </section>
             <section class="image-slide">
                 <img src="slide_images/plot_01.png" alt="Rating distribution">
-                <div class="caption">Distribution of star ratings across categories — shows variance and outliers.</div>
+                <div class="caption">Distribution of star ratings across categories - shows variance and outliers.</div>
             </section>
 
             <section>
@@ -236,7 +335,7 @@
             </section>
             <section class="image-slide">
                 <img src="slide_images/plot_02.png" alt="Correlation heatmap">
-                <div class="caption">Correlation heatmap for numeric features — useful to spot collinearity.</div>
+                <div class="caption">Correlation heatmap for numeric features - useful to spot collinearity.</div>
             </section>
 
             <section>
@@ -254,11 +353,11 @@
             </section>
             <section class="image-slide">
                 <img src="slide_images/plot_03.png" alt="Reviews over time">
-                <div class="caption">Review count across years — highlights trends and seasonality.</div>
+                <div class="caption">Review count across years - highlights trends and seasonality.</div>
             </section>
 
             <section>
-                <h2>Machine Learning Pipeline — Part 1</h2>
+                <h2>Machine Learning Pipeline - Part 1</h2>
                 <div class="data-flow">
                     <h4>Text Processing & Targets:</h4>
                     <ol>
@@ -278,7 +377,7 @@
                 </div>
             </section>
             <section>
-                <h2>Machine Learning Pipeline — Part 2</h2>
+                <h2>Machine Learning Pipeline - Part 2</h2>
                 <div class="data-flow">
                     <h4>Model Training:</h4>
                     <ol>
@@ -291,9 +390,9 @@
             </section>
 
             <section>
-                <h2>ResNet50 Training & Results — Data & Setup</h2>
+                <h2>ResNet50 Training & Results - Data & Setup</h2>
                 <div class="data-flow">
-                    <h4>Computer Vision Pipeline — Setup:</h4>
+                    <h4>Computer Vision Pipeline - Setup:</h4>
                     <ol>
                         <li>Image preparation:
                             <ul>
@@ -313,7 +412,7 @@
                 </div>
             </section>
             <section>
-                <h2>ResNet50 Training & Results — Evaluation</h2>
+                <h2>ResNet50 Training & Results - Evaluation</h2>
                 <div class="data-flow">
                     <h4>Evaluation & Metrics:</h4>
                     <ol>
@@ -326,26 +425,27 @@
             </section>
             <section class="image-slide">
                 <img src="slide_images/plot_09.png" alt="ResNet confusion matrix">
-                <div class="caption">Confusion matrix for ResNet50 — shows class-level performance and confusions.</div>
+                <div class="caption">Confusion matrix for ResNet50 - shows class-level performance and confusions.</div>
             </section>
 
             <section>
                 <h2>Artifact Organization</h2>
                 <div class="data-flow">
-                    <h4>Project Structure:</h4>
+                    <h4>Project Structure</h4>
                     <pre style="font-size: 0.7em">
 Capstone Project/
-├── artifacts/          # Cached computations
-│   ├── tfidf.pkl      # Vectorizer
+├── artifacts/
+│   ├── tfidf.pkl
 │   └── tfidf_matrix.pkl
-├── dataset/           # Images & labels
+├── dataset/
 │   └── images/
-├── slide_images/      # Generated plots
+├── slide_images/
 │   ├── plot_00.png
-│   ├── plot_01.png
 │   └── ...
-└── runs/             # Model outputs
-    └── detect/</pre>
+└── runs/
+    └── detect/
+                    </pre>
+                    <!-- legend removed per user request -->
                 </div>
             </section>
 
